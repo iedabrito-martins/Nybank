@@ -1,19 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule }   from '@angular/forms';
+
 import { AppComponent } from './app.component';
-import { NovaTransferenciaComponent } from '1952-angular/src/app/nova-transferencia/nova-transferencia.component';
-import { ExtratoComponent } from './extrato/extrato.component';
+import { NovaTransferenciaComponent } from './nova-transferencia/nova-transferencia.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NovaTransferenciaComponent,
-    ExtratoComponent
+    NovaTransferenciaComponent
   ],
   imports: [
     BrowserModule,
-    FormsModule 
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
